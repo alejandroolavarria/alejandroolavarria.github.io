@@ -12,3 +12,5 @@
 
 /* Slow cinematic atlas: preserve dark backing layer and prevent bright placeholder frames. */
 #journey-map .leaflet-tile-pane{background:transparent!important}#journey-map .leaflet-tile{background-color:transparent!important}#journey-map .leaflet-tile-loaded{opacity:1!important}#journey-map .leaflet-tile-pane img{color:transparent!important}#journey-map .leaflet-atlasBase-pane{pointer-events:none}.atlas-progress i{transition:none}.atlas-card{margin-bottom:clamp(80px,15vh,160px)}.atlas-card:last-child{margin-bottom:0}@media(max-width:850px){.atlas-card{margin-bottom:65px}.atlas-card:last-child{margin-bottom:0}}
+/* WebGL night atlas */
+#journey-map .maplibregl-canvas{outline:none!important;background:#111922}#journey-map .maplibregl-ctrl-attrib{background:#14212e;color:#c7d8e4}#journey-map .maplibregl-ctrl-attrib a{color:#d8ebf8}#journey-map .maplibregl-canvas-container{background:#111922}.atlas-map{background:#111922}.atlas-overlay,.atlas-controls{z-index:3}
