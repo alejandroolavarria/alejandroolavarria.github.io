@@ -14,3 +14,6 @@
 #journey-map .leaflet-tile-pane{background:transparent!important}#journey-map .leaflet-tile{background-color:transparent!important}#journey-map .leaflet-tile-loaded{opacity:1!important}#journey-map .leaflet-tile-pane img{color:transparent!important}#journey-map .leaflet-atlasBase-pane{pointer-events:none}.atlas-progress i{transition:none}.atlas-card{margin-bottom:clamp(80px,15vh,160px)}.atlas-card:last-child{margin-bottom:0}@media(max-width:850px){.atlas-card{margin-bottom:65px}.atlas-card:last-child{margin-bottom:0}}
 /* WebGL night atlas */
 #journey-map .maplibregl-canvas{outline:none!important;background:#111922}#journey-map .maplibregl-ctrl-attrib{background:#14212e;color:#c7d8e4}#journey-map .maplibregl-ctrl-attrib a{color:#d8ebf8}#journey-map .maplibregl-canvas-container{background:#111922}.atlas-map{background:#111922}.atlas-overlay,.atlas-controls{z-index:3}
+
+/* Keep the final destination in view while the camera settles. */
+.atlas-card:last-child{margin-bottom:clamp(170px,43vh,420px)}.atlas-map{box-shadow:0 12px 32px #101d3025}.atlas-overlay{background:#0b1726d9;color:#d7e8f6;border:1px solid #92b3ce26}@media(max-width:850px){.atlas-card:last-child{margin-bottom:clamp(140px,35vh,280px)}}
