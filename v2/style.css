@@ -34,3 +34,6 @@
 
 /* Dedicated flag backgrounds cannot inherit photographic image sizing. */
 #sidebar-country-flag{visibility:hidden;align-self:center;opacity:.95}.sidebar nav a[href="#international"].active #sidebar-country-flag{visibility:visible}#international .destination-flag{width:20px!important;height:14px!important;max-width:20px!important;flex:0 0 20px!important;border-radius:2px;box-shadow:none}.atlas-city-marker{font:500 11px/1.2 system-ui,sans-serif;color:#f1e7d3;white-space:nowrap;text-shadow:0 1px 3px #050e17,0 0 5px #050e17,0 0 8px #050e17;pointer-events:none!important;letter-spacing:.015em}.atlas-photo>img{width:100%;height:calc(100% + 30px)}
+
+/* Project Europa and institutional mark treatment */
+.institution-strip .lubrizol-logo{mix-blend-mode:multiply;object-fit:contain}.deal-hero{background:#172b32;color:#f5f8f4;padding:30px;margin:25px 0 8px}.deal-hero>span{font-size:10px;letter-spacing:.15em;color:#c6dad3}.deal-hero h2{font:400 35px Georgia,serif;margin:12px 0 24px}.deal-metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.deal-metrics div{font-size:12px;border-top:1px solid #7d9a90;padding-top:12px}.deal-metrics strong{display:block;font:400 30px Georgia,serif;margin-bottom:6px}@media(max-width:600px){.deal-metrics{grid-template-columns:1fr}}
